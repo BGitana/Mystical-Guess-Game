@@ -1,0 +1,153 @@
+body {
+  margin: 0px;
+  text-align: center;
+  width: 100vw;
+  /* height: 100vh; */
+  height: auto;
+  padding: 0px;
+  /* color: rgb(91, 47, 252); */
+}
+
+.navbar {
+  background-color: black;
+  opacity: 0.7;
+  text-align: center;
+  filter: alpha(opacity=70);
+  height: 60px;
+  box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  z-index: 13;
+  color: rgb(248, 245, 241);
+}
+
+.footer {
+  background-color: black;
+  opacity: 0.6;
+  text-align: center;
+  filter: alpha(opacity=60);
+  height: 60px;
+  box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.5);
+  position: fixed;
+  height: 60px;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+a.navbar-brand {
+  color: rgb(248, 245, 241);
+  font-size: 1em;
+  text-decoration: none;
+  padding-top: 20px;
+  display: flex;
+  align-items: center;
+  padding: 0 0.75em;
+}
+
+.bg-image {
+  position: fixed;
+  background-image: url("../images/phychadellice_stars.gif");
+  background-position: center;
+  background-size: cover;
+  background-size: 20%;
+  display: block;
+  width: 100vw;
+  height: 100vh;
+  z-index: -3;
+  opacity: 0.3;
+  filter: alpha(opacity=30);
+  margin: 0px;
+}
+
+h1 {
+  color: rgb(91, 47, 252);
+  font-size: 4.5em;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+  text-align: center;
+  line-height: 80px;
+  font-family: "Rock Salt", cursive;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 24;
+  position: relative;
+  padding-top: 5%;
+}
+
+.card-deck {
+  width: 80%;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.card {
+  background-image: url("../images/ball_spin.gif");
+  background-position: center;
+  box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.5);
+  background-size: 105%;
+  border-radius: 10px;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+}
+
+#card4 {
+  background-color: rgb(91, 47, 252);
+  box-shadow: 25px 25px 50px rgb(0, 0, 0, 0.5);
+  border-radius: 10px;
+  z-index: 2;
+  opacity: 0.7;
+  filter: alpha(opacity=70);
+
+  position: relative;
+  width: 100%;
+  margin-top: 3%;
+}
+
+.card-title {
+  margin: 0;
+}
+
+h2 {
+  color: rgb(248, 245, 241);
+  font-size: 1.2em;
+  z-index: 5;
+  padding: 2% 0 0 0;
+  margin: 0;
+}
+
+p {
+  color: rgb(248, 245, 241);
+
+  line-height: 108px;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+  font-size: 7em;
+  position: relative;
+  padding-top: 2%;
+  padding-bottom: 3%;
+}
+
+h4 {
+  color: rgb(248, 245, 241);
+  font-size: 5.2em;
+  padding: 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 4;
+}
+
+h5 {
+  color: rgb(248, 245, 241);
+  font-size: 3.2em;
+  line-height: 30px;
+  padding: 2% 0 4% 0;
+  margin: 0;
+  text-shadow: 2px 2px 4px #000000;
+  z-index: 5;
+}
+
+#wins {
+  color: rgb(91, 47, 252);
+  text-shadow: 2px 2px 4px #000000;
+}
