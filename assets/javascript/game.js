@@ -1,4 +1,4 @@
-alert("Script Tags Work?");
+alert("Start your game by pressing on any of the keys on your keyboard! GOOD LUCK!");
 
 // console.log("Hello world!");
 
@@ -104,3 +104,4 @@ function compare(yourGuess, compGuess) {
     }
   }
 }
+
