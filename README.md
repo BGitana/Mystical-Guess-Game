@@ -4,7 +4,7 @@ HTML CSS JavaScript
 ### Overview
 
 **Mystical-Guess-Game** is a guessing game where users have to guess and match the letter selected by the computer. Press any letters to see if it's a match and get a 1 win! See how many wins you can rally! Press enter to escape page alerts.
-Welcome to [Mystical-Guess-Game](https://github.com/BGitana/Mystical-Guess-Game). Enjoy!
+Welcome to [Mystical-Guess-Game]( https://bgitana.github.io/Mystical-Guess-Game/). Enjoy!
 
 ### Prerequisites
 
