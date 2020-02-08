@@ -46,6 +46,14 @@ a.navbar-brand {
   padding: 0 0.75em;
 }
 
+a:hover {
+  color: red;
+}
+
+a:active {
+  color: rgb(240, 211, 43);
+}
+
 .bg-image {
   position: fixed;
   background-image: url("../images/phychadellice_stars.gif");
